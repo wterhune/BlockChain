@@ -1,0 +1,187 @@
+//Project A
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>javac -cp "gson-2.8.2.jar" BlockChainA.java
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>java -cp ".;gson-2.8.2.jar" BlockChainA
+Original Block in JSON ==> "8f481dcc-76b4-44b9-943d-a3138776478abcf78c13-085f-4469-a5d8-dedca293f2cdScoobyDoo"
+[
+  {
+    "prevHash": "0",
+    "hash": "0ca5e1f0306318b71d9136401ee142994a4eac00513eae7b51d2ddb3ba78f2d4",
+    "info": "8f481dcc-76b4-44b9-943d-a3138776478abcf78c13-085f-4469-a5d8-dedca293f2cdScoobyDoo",
+    "time": 1604548785295,
+    "nonce": 38
+  },
+  {
+    "prevHash": "0ca5e1f0306318b71d9136401ee142994a4eac00513eae7b51d2ddb3ba78f2d4",
+    "hash": "0a62d586a0a91a5cee0e8d6409e2763bb8945dd8d89c04f7f5aa116b874c5db1",
+    "info": "8f481dcc-76b4-44b9-943d-a3138776478abcf78c13-085f-4469-a5d8-dedca293f2cdScoobyDoo",
+    "time": 1604548785301,
+    "nonce": 9
+  },
+  {
+    "prevHash": "0a62d586a0a91a5cee0e8d6409e2763bb8945dd8d89c04f7f5aa116b874c5db1",
+    "hash": "0246c885545639254634a463b5b93ed2b143a343d188f36649c791a46b29472d",
+    "info": "8f481dcc-76b4-44b9-943d-a3138776478abcf78c13-085f-4469-a5d8-dedca293f2cdScoobyDoo",
+    "time": 1604548785301,
+    "nonce": 20
+  },
+  {
+    "prevHash": "0246c885545639254634a463b5b93ed2b143a343d188f36649c791a46b29472d",
+    "hash": "01559cfb81954f0092b3e81d095627e4283a4ce005462fa76c7e3c5e9d2e4b8e",
+    "info": "8f481dcc-76b4-44b9-943d-a3138776478abcf78c13-085f-4469-a5d8-dedca293f2cdScoobyDoo",
+    "time": 1604548785301,
+    "nonce": 15
+  }
+]
+BLOCK_CHAIN built successfully
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>
+
+
+//Project B
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>javac -cp "gson-2.8.2.jar" BlockChainB.java
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>java -cp "gson-2.8.2.jar" BlockChainB
+Error: Could not find or load main class BlockChainB
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>java -cp ".;gson-2.8.2.jar" BlockChainB
+JSON Block Chain B is [
+  {
+    "prevHash": "0",
+    "hash": "09bb309a2fb2709ea7741cc2174ef4144c8949e4902e9e4924987dff7238a954",
+    "info": "Original Block",
+    "time": 1604548874616,
+    "nonce": 1
+  },
+  {
+    "prevHash": "09bb309a2fb2709ea7741cc2174ef4144c8949e4902e9e4924987dff7238a954",
+    "hash": "00b43b1951cf7c35ae721ec1bd30c41ebb2478adf22b826e22dba49d0d2bd040",
+    "info": "Block 1",
+    "time": 1604548874627,
+    "nonce": 14
+  },
+  {
+    "prevHash": "00b43b1951cf7c35ae721ec1bd30c41ebb2478adf22b826e22dba49d0d2bd040",
+    "hash": "02fecde1dab1fe3ddd2104a7d2b1c69a08da6802d04136197053a92aa5950fdf",
+    "info": "Block 2!",
+    "time": 1604548874630,
+    "nonce": 6
+  },
+  {
+    "prevHash": "02fecde1dab1fe3ddd2104a7d2b1c69a08da6802d04136197053a92aa5950fdf",
+    "hash": "02ebad3073ebb87b259f052f356e711baa084b98d2464e99c193a0919b616739",
+    "info": "Block 3!",
+    "time": 1604548874631,
+    "nonce": 16
+  }
+]
+BLOCK_CHAIN built successfully
+Record in String is: f64d917f-5926-4441-86b5-bbab7ea4f6canullScoobyDoo111-22-3333c494e6
+GSON => JSON... {
+  "blockid": "f64d917f-5926-4441-86b5-bbab7ea4f6ca",
+  "uuid": "f64d917f-5926-4441-86b5-bbab7ea4f6ca",
+  "firstName": "Scooby",
+  "lastName": "Doo",
+  "randomNumber": "c494e6",
+  "winner": "47e1e31bce203e381ad2e229c67458d8e9fadc5572045120847b715c2f43741e",
+  "SSN": "111-22-3333"
+}
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>
+
+//Project C
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 501D-8CE2
+ Directory of C:\Users\wterhune\Desktop\BLOCK_CHAIN\src
+11/04/2020  09:39 PM    <DIR>          .
+11/04/2020  09:39 PM    <DIR>          ..
+11/04/2020  08:42 PM             2,079 0-readme.txt
+11/04/2020  08:36 PM             9,178 BlockChainA.java
+11/04/2020  08:36 PM            11,078 BlockChainB.java
+11/04/2020  09:39 PM            12,464 BlockChainC.java
+11/04/2020  09:31 PM               259 BlockInput0.txt
+11/04/2020  09:23 PM               135 BlockInput1.txt
+11/04/2020  09:23 PM               151 BlockInput2.txt
+10/28/2020  10:29 PM             1,428 blockrecordC.json
+10/24/2020  09:21 PM           232,932 gson-2.8.2.jar
+10/27/2020  12:27 AM                 0 java
+              10 File(s)        269,704 bytes
+               2 Dir(s)  48,125,939,712 bytes free
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>javac -cp "gson-2.8.2.jar" BlockChainC.java
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>java -cp ".;gson-2.8.2.jar" BlockChainC
+Prepping files to be read in...
+Running Block Chain C process now...
+
+FILE NAME: BlockInput0.txt
+Now writing to JSON
+GSON to JSON file: [
+  {
+    "blockid": "5b0d02c2-0e65-4488-a0e1-1ad055f9f991",
+    "uuid": "5b0d02c2-0e65-4488-a0e1-1ad055f9f991",
+    "firstName": "John",
+    "lastName": "Smith",
+    "randomNumber": "303c5",
+    "SSN": "123-45-6789",
+    "DOB": "1996.03.07"
+  },
+  {
+    "blockid": "c2c42009-06c7-4966-a9f5-453d6d9eb900",
+    "uuid": "c2c42009-06c7-4966-a9f5-453d6d9eb900",
+    "firstName": "Joe",
+    "lastName": "Blow",
+    "randomNumber": "f79c10",
+    "SSN": "123-45-6888",
+    "DOB": "1996.03.07"
+  },
+  {
+    "blockid": "ac7ba7b6-b55e-46f5-965c-85d7ca50942e",
+    "uuid": "ac7ba7b6-b55e-46f5-965c-85d7ca50942e",
+    "firstName": "Julie",
+    "lastName": "Wilson",
+    "randomNumber": "190c98",
+    "SSN": "123-45-6999",
+    "DOB": "1996.03.07"
+  },
+  {
+    "blockid": "a542ab9c-b8e3-4fda-af96-ae9d47ab8aa4",
+    "uuid": "a542ab9c-b8e3-4fda-af96-ae9d47ab8aa4",
+    "firstName": "Wayne",
+    "lastName": "Blaine",
+    "randomNumber": "4b7e4",
+    "SSN": "123-45-6777",
+    "DOB": "1942.07.07"
+  }
+]
+Now reading JSON file
+First Name: John
+Last Name: Smith
+SSN: 123-45-6789
+DOB: 1996.03.07
+First Name: Joe
+Last Name: Blow
+SSN: 123-45-6888
+DOB: 1996.03.07
+First Name: Julie
+Last Name: Wilson
+SSN: 123-45-6999
+DOB: 1996.03.07
+First Name: Wayne
+Last Name: Blaine
+SSN: 123-45-6777
+DOB: 1942.07.07
+
+C:\Users\wterhune\Desktop\BLOCK_CHAIN\src>
+
+
+
